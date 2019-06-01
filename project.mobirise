@@ -1,0 +1,786 @@
+{
+  "settings": {
+    "name": "Site-06-01_1922",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#D901ED",
+        "secondaryColor": "#46004C",
+        "successColor": "#2BE080",
+        "infoColor": "#1A5CEB",
+        "warningColor": "#E0C119",
+        "dangerColor": "#EB5A1A",
+        "titleFont": "Arapey",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.10.1",
+    "siteFonts": [],
+    "uniqCompNum": 14,
+    "versionPublish": "4.10.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#052163"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#052163"
+            },
+            ".link, .dropdown-item": {
+              "color": "#052163"
+            },
+            ".link": {
+              "font-size": "0.95rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.029rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#052163",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#052163"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            },
+            "P": {
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "sticky": false,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "0.95",
+            "fontName": {},
+            "fontColor": "#052163",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">how to find us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">what to expect</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">contact us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">resources</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-0"
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/friendsmeetinghouseealing-1590x596.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.7
+          },
+          "title": "Meditation - <span style=\"font-weight: normal;\">Ealing</span>",
+          "text": "Welcome to Ealing Meditation - free classes every Monday at 7.30pm throughout the year.<br>For more details on Sahaja Yoga and to be kept informed of special events please subscribe to our newsletter below...<br><br>",
+          "form": {
+            "action": "nigelpowell@hotmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\" type=\"submit\">subscribe</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-1",
+          "_styles": {
+            "H1": {
+              "text-align": "left",
+              "font-family": "'Arapey', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arapey:400,400i",
+              "color": "#ffffff"
+            },
+            "P": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "Text with heading",
+          "text": "<p><span style=\"font-style: normal;\">Ealing Meditation is a community service run by the Sahaja Meditation group, which offers free meditation classes every Monday, from 7.30 pm to 9:00 pm. Everyone is welcome! We have been running free weekly classes in the Ealing area for more than eighteen years.&nbsp;&nbsp;&nbsp;&nbsp;</span><br></p>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text9",
+          "_anchor": "text9-3",
+          "_styles": {
+            "P": {
+              "font-size": "24px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "What is meditation?",
+          "text1": "Meditation is a form of silent inner contemplation, where we try to still the thoughts in our head and move into a state of profound peace. The process is completely natural, it is not self-hypnosis or trance, and over time can produce significant benefits in our emotional, psychological and physical well-being.",
+          "text2": "Sahaja Meditation is based on the ancient practices developed over thousands of years in the Far East, and offers practitioners a direct and powerful method of bringing balance to their lives and environment. Each meeting covers the basics and includes a guided meditation session, so that you can start meditating at home straight away.&nbsp;<br><br>Shri Mataji Nirmala Devi is the founder of Sahaja Yoga. She is widely acknowledged as one of the greatest spiritual teacher of our times. The knowledge of Sahaja Yoga is ancient, and existed in the traditions of many religions and cultures. However it was known only by very few people. It is thanks to Shri Mataji that it has become widely available, in a way that many people can get self-realisation quickly, and easily. With practice of Sahaja Yoga, anyone can have direct access to truth, and therefore become their own spiritual guide.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text7",
+          "_anchor": "text7-4",
+          "_styles": {
+            "H3": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showImages": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#f8f8f8",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "media1": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 640,
+              "src": "@PROJECT_PATH@/assets/images/c4-1.jpg",
+              "active": true
+            }
+          },
+          "media2": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 640,
+              "src": "@PROJECT_PATH@/assets/images/c4-2.jpg",
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 640,
+              "src": "@PROJECT_PATH@/assets/images/c4-3.jpg",
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 640,
+              "src": "@PROJECT_PATH@/assets/images/c4-4.jpg",
+              "active": true
+            }
+          },
+          "title": "<em>Our</em> Design",
+          "subtitle": "Subtitle",
+          "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit quisque elementum volutpat massa ac interdum velit imperdiet vel lacinia massa viverra dolor quis congue pellentesque.",
+          "title1": "Peace",
+          "title2": "HEALTH",
+          "title3": "BALANCE",
+          "title4": "JOY",
+          "text1": "Discover the peace that lives inside your heart. Regular meditation can remove much of the stress of today's hectic non-stop lifestyle. Try it for yourself, you'll be amazed.",
+          "text2": "Your health is tied up with much more than just the physical body. Emotional well-being is a vital component of a healthy life. Sahaja meditation delivers the balance you need.",
+          "text3": "Banish the uncontrolled highs and lows of an unbalanced emotional state. By meditating regularly, you'll find yourself coping with life in ways you could never imagine.",
+          "text4": "Discover the simple joy of life which you had in your childhood. The gentle power of meditation restores the compassion, simplicity and enjoyment of life that you may be missing.",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "process1",
+          "_anchor": "process1-2"
+        },
+        {
+          "_params": {
+            "googleMap": {
+              "address": "17 Woodville Rd\nEaling\nLondon W5 2SE",
+              "placeId": "ChIJI847wgsSdkgRmuekfQYEiLs",
+              "state": "ok",
+              "stateDetails": ""
+            },
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map2",
+          "_anchor": "map2-a"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/social.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "facebook": false,
+            "twitter": true,
+            "google": false,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "<span>Share this page!</span>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social1",
+          "_anchor": "social1-d"
+        },
+        {
+          "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "postToLoad": 3,
+            "facebookToken": "",
+            "facebook": "",
+            "twitter": "SahajL",
+            "youtube": "",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/social-feed/feed/assets/comments_bg.jpg",
+            "overlay": true,
+            "overlayColor": "#7e9b9f",
+            "overlayOpacity": 0.6
+          },
+          "alias": "social-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "feed",
+          "_anchor": "feed-7"
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#757575"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "2019 All rights reserved : Sahaja Yoga",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-9"
+        },
+        {
+          "alias": "popup-builder",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "&.popup-builder": {
+              "background-color": "#ffffff",
+              ".modal": {
+                "position": "relative",
+                "display": "block",
+                "z-index": "1"
+              },
+              ".modal-dialog": {
+                "margin-top": "60px",
+                "margin-bottom": "60px"
+              }
+            },
+            ".modal-content, .modal-dialog": {
+              "height": "auto"
+            },
+            ".form-wrapper": {
+              ".input-group-btn": {
+                "margin-right": "auto",
+                "margin-left": "auto",
+                ".btn": {
+                  "margin": "0 !important"
+                }
+              },
+              "@media (min-width: 769px)": {
+                ".mbr-form": {
+                  ".form-group, .input-group-btn": {
+                    "padding": "0 .5rem"
+                  }
+                }
+              }
+            },
+            ".card-img": {
+              "width": "100%",
+              "margin": "auto",
+              "border-radius": "0"
+            },
+            ".mbr-figure": {
+              "img": {
+                "display": "block",
+                "width": "100%",
+                "-ms-flex-item-align": "center",
+                "-ms-grid-row-align": "center",
+                "-webkit-align-self": "center",
+                "align-self": "center"
+              }
+            },
+            ".mbr-text": {
+              "text-align": "center"
+            },
+            ".pt-0": {
+              "padding-top": "0 !important"
+            },
+            ".pb-0": {
+              "padding-bottom": "0 !important"
+            },
+            ".form-content": {
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "text-align": "center"
+            },
+            ".mbr-overlay": {
+              "bottom": "0",
+              "left": "0",
+              "position": "absolute",
+              "right": "0",
+              "top": "0",
+              "z-index": "0",
+              "pointer-events": "none"
+            },
+            ".modal-open": {
+              "overflow": "hidden"
+            },
+            ".modal-open .modal": {
+              "overflow-x": "hidden",
+              "overflow-y": "auto"
+            },
+            ".modal": {
+              "position": "fixed",
+              "top": "0",
+              "left": "0",
+              "z-index": "1050",
+              "display": "none",
+              "width": "100%",
+              "height": "100%",
+              "overflow": "hidden",
+              "outline": "0"
+            },
+            ".modal-dialog": {
+              "position": "relative",
+              "width": "auto",
+              "margin": ".5rem",
+              "pointer-events": "none"
+            },
+            ".modal.fade .modal-dialog": {
+              "transition": "transform 0.3s ease-out, -webkit-transform 0.3s ease-out",
+              "-webkit-transform": "translate(0, -50px)",
+              "transform": "translate(0, -50px)"
+            },
+            ".modal.show .modal-dialog": {
+              "-webkit-transform": "none",
+              "transform": "none"
+            },
+            ".modal-dialog-centered": {
+              "display": "flex",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "min-height": "~\"calc(100% - (.5rem * 2))\""
+            },
+            ".modal-dialog-centered::before": {
+              "display": "block",
+              "height": "~\"calc(100vh - (.5rem * 2))\"",
+              "content": "\"\""
+            },
+            ".modal-content": {
+              "background": "@cardBg",
+              "position": "relative",
+              "display": "flex",
+              "-ms-flex-direction": "column",
+              "flex-direction": "column",
+              "width": "100%",
+              "pointer-events": "auto",
+              "background-clip": "padding-box",
+              "border": "none",
+              "outline": "0",
+              "-webkit-box-shadow": "0 10px 40px 0 rgba(0, 0, 0, 0.2)",
+              "box-shadow": "0 10px 40px 0 rgba(0, 0, 0, 0.2)"
+            },
+            ".modal-backdrop": {
+              "position": "fixed",
+              "top": "0",
+              "left": "0",
+              "z-index": "1040",
+              "width": "100vw",
+              "height": "100vh",
+              "background-color": "#000"
+            },
+            ".modal-backdrop.fade": {
+              "opacity": "0"
+            },
+            ".modal-backdrop.show": {
+              "opacity": ".5"
+            },
+            ".modal-header": {
+              "display": "flex",
+              "-ms-flex-align": "start",
+              "align-items": "flex-start",
+              "-ms-flex-pack": "justify",
+              "justify-content": "space-between",
+              "padding": "1rem",
+              "border-bottom": "none"
+            },
+            ".modal-header .close": {
+              "position": "absolute",
+              "top": "auto",
+              "right": "1rem",
+              "margin": "-1rem -1rem -1rem auto",
+              "padding": "1rem",
+              "opacity": ".75",
+              "&:hover": {
+                "opacity": "1"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".modal-title": {
+              "line-height": "1.5",
+              "width": "100%",
+              "margin": "0",
+              "text-align": "center"
+            },
+            ".modal-body": {
+              "position": "relative",
+              "-ms-flex": "1 1 auto",
+              "flex": "1 1 auto",
+              "padding": "1rem",
+              "min-height": "100%"
+            },
+            ".modal-footer": {
+              "display": "flex",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "-ms-flex-pack": "center",
+              "justify-content": "center",
+              "padding": "1rem",
+              "border-top": "none",
+              "text-align": "center"
+            },
+            ".modal-scrollbar-measure": {
+              "position": "absolute",
+              "top": "-9999px",
+              "width": "50px",
+              "height": "50px",
+              "overflow": "scroll"
+            },
+            "@media (min-width: 576px)": {
+              ".modal-dialog": {
+                "max-width": "500px",
+                "margin": "1.75rem auto"
+              },
+              ".modal-dialog-centered": {
+                "min-height": "~\"calc(100% - (1.75rem * 2))\""
+              },
+              ".modal-dialog-centered::before": {
+                "height": "~\"calc(100vh - (1.75rem * 2))\""
+              },
+              ".modal-sm": {
+                "max-width": "300px"
+              },
+              ".container": {
+                "max-width": "540px"
+              }
+            },
+            "@media (min-width: 992px)": {
+              ".modal-lg, .modal-xl": {
+                "max-width": "800px"
+              },
+              ".container": {
+                "max-width": "960px"
+              }
+            },
+            "@media (min-width: 1200px)": {
+              ".modal-xl": {
+                "max-width": "1140px"
+              },
+              ".container": {
+                "max-width": "1140px"
+              }
+            },
+            ".container": {
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "margin-right": "auto",
+              "margin-left": "auto"
+            },
+            "@media (min-width: 768px)": {
+              ".container": {
+                "max-width": "720px"
+              }
+            },
+            ".row": {
+              "display": "flex",
+              "-ms-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              "margin-right": "-15px",
+              "margin-left": "-15px"
+            },
+            ".col-md-4": {
+              "position": "relative",
+              "width": "100%",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "-ms-flex": "0 0 33.333333%",
+              "flex": "0 0 33.333333%",
+              "max-width": "33.333333%"
+            },
+            ".form-group": {
+              "margin-bottom": "1rem"
+            },
+            ".form-control": {
+              "display": "block",
+              "width": "100%",
+              "font-size": "1rem",
+              "font-weight": "400",
+              "line-height": "1.5"
+            },
+            ".col": {
+              "-ms-flex-preferred-size": "0",
+              "flex-basis": "0",
+              "-ms-flex-positive": "1",
+              "flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".col-md-auto": {
+              "position": "relative",
+              "padding-right": "15px",
+              "padding-left": "15px",
+              "-ms-flex": "0 0 auto",
+              "flex": "0 0 auto",
+              "width": "auto",
+              "max-width": "100%"
+            }
+          },
+          "_name": "mbr-popup",
+          "_customHTML": "<section class=\"popup-builder\" group=\"Popup\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Triggers / Show Popup</header>\n        <label>On Click</label>\n        <label>Use [popup-id] with any link or button (Link -&gt; Popup tab)</label>\n\n        <input type=\"checkbox\" title=\"On Timer\" name=\"onTimer\">\n        <input type=\"range\" title=\"Delay (s)\" name=\"onTimerDelay\" min=\"0\" max=\"30\" step=\"1\" value=\"5\" condition=\"onTimer == true\">\n\n        <input type=\"checkbox\" title=\"On Page Exit\" name=\"onPageExit\" checked>\n\n        <input type=\"checkbox\" title=\"On Scroll to End\" name=\"onScroll\">\n\n        <header>Content</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\n        <select title=\"Content Type\" name=\"popupContentType\">\n            <option value=\"1\">None</option>\n            <option value=\"2\">Image</option>\n            <option value=\"3\">Video</option>\n            <option value=\"4\" selected>Form</option>\n        </select>\n\n        <select title=\"Size\" name=\"popupSize\">\n            <option value=\"1\">Small</option>\n            <option value=\"2\">Default</option>\n            <option value=\"3\" selected>Large</option>\n            <option value=\"4\">Extra large</option>\n        </select>\n\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <input type=\"color\" title=\"Background Color\" name=\"cardBg\" value=\"#ffffff\">\n\n        <header>Overlay</header>\n        <input type=\"color\" title=\"Color\" name=\"popupOverlayColor\" value=\"#000000\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': popupOverlayColor, 'top': 0, 'right': 0, 'bottom': 0, 'left': 0, 'position': absolute, 'z-index': 0, 'pointer-events': none}\">\n    </div>\n\n    <div class=\"modal mbr-popup\" tabindex=\"-1\" role=\"dialog\" data-overlay-color=\"{{popupOverlayColor}}\" data-overlay-opacity=\"{{overlayOpacity}}\" data-on-timer-delay=\"{{onTimer ? onTimerDelay : ''}}\" data-on-exit=\"{{onPageExit}}\" data-on-scroll=\"{{onScroll}}\">\n        <div class=\"modal-dialog\" role=\"document\" mbr-class=\"{\n            'modal-sm': popupSize == 1,\n            '': popupSize == 2,\n            'modal-lg': popupSize == 3,\n            'modal-xl': popupSize == 4\n            }\">\n            <div class=\"modal-content\">\n                <div class=\"modal-header\" mbr-class=\"{'pb-0': showTitle && showText}\">\n                    <h5 class=\"modal-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".modal-title\" mbr-if=\"showTitle\">Please Subscribe to our newsletter for event news</h5>\n                    <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                        <svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 32 32\" fill=\"currentColor\">\n                            <path d=\"M31.797 0.191c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.598 0.581 0.342 1.543 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM14.472 17.515c-0.264-0.256-0.686-0.25-0.942 0.015l-13.328 13.326c-0.613 0.595 0.34 1.562 0.942 0.942l13.328-13.326c0.27-0.262 0.27-0.695 0-0.957zM1.144 0.205c-0.584-0.587-1.544 0.336-0.942 0.942l30.654 30.651c0.613 0.625 1.563-0.325 0.942-0.942z\"></path>\n                        </svg>\n                    </button>\n                </div>\n\n                <div class=\"modal-body\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">\n                        For more details on Sahaja Yoga and to be kept informed of special events please subscribe to our newsletter below...</p>\n\n                    <div mbr-if=\"popupContentType !== 1\">\n                        <div class=\"card-img mbr-figure\" mbr-if=\"popupContentType == 2\">\n                            <img src=\"../_images/popup.jpg\" alt=\"Mobirise\">\n                        </div>\n                            <div mbr-video class=\"video-block mbr-figure\" mbr-if=\"popupContentType == 3\">\n                                <iframe src=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\"></iframe>\n                            </div>\n\n                            <div mbr-form mbr-if=\"popupContentType == 4\" class=\"form-wrapper\">\n                                <form action=\"nigelpowell@hotmail.com\" name=\"Mobirise Form\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                                    <div class=\"container\">\n                                        <div class=\"row\">\n                                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\"></div>\n                                        </div>\n                                        <div class=\"row form-content\">\n                                            <div class=\"col-md-4 form-group\" data-for=\"name\">\n                                                <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                                            </div>\n                                            <div class=\"col-md-4 form-group\" data-for=\"lastName\" hidden=\"hidden\">\n                                                <input type=\"text\" name=\"lastName\" placeholder=\"Last Name\" data-form-field=\"Last Name\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\" hidden=\"hidden\">\n                                            </div>\n                                            <div class=\"form-group col\" data-for=\"email\">\n                                                <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"Email\" mbr-theme-style=\"display-7\" required=\"required\" class=\"form-control\">\n                                            </div>\n                                            <div class=\"col-md-auto input-group-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrBtnLink,-mbrBtnAdd\"><a type=\"submit\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\">SUBSCRIBE</a></div>\n                                        </div>\n                                    </div>\n                                </form>\n                            </div>\n                        </div>\n                    </div>\n\n                    <div class=\"modal-footer\" mbr-class=\"{'pt-0': popupContentType == 1 || popupContentType == 4}\" mbr-if=\"showButtons\">\n                        <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                            <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">\n                                LEARN MORE\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n</section>",
+          "_cid": "rsaElBd0YA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "mbr-popup-8"
+        }
+      ]
+    }
+  }
+}
