@@ -127,7 +127,7 @@
             "paddingTop": "2",
             "paddingBottom": "1",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/friendsmeetinghouseealing-1590x596.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/friendsmeetinghouseealing-1-1590x596.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#fff",
