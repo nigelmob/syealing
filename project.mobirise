@@ -30,7 +30,7 @@
     "noImageResize": "",
     "witsec-language": "en",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
-    "gdpr": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
+    "gdpr": "",
     "siteUrl": "undefined",
     "google-analytics": ""
   },
@@ -392,7 +392,7 @@
           "loadsvg": "@PROJECT_PATH@/assets/images/loading.svg",
           "_params": {
             "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingBottom": "1",
             "postToLoad": 3,
             "facebookToken": "",
             "facebook": "",
